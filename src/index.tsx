@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { App } from "./useInput";
+import { App } from "./use/useTabs";
+// import { App } from "./use/useInput";
 // import { App, AppUgly } from "./useState";
 
 const rootElement = document.getElementById("root")!;
