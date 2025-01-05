@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { App } from "./useState/useTabs";
+import { App } from "./useEffect/useEffect";
+// import { App } from "./useState/useTabs";
 // import { App } from "./useState/useInput";
 // import { App, AppUgly } from "./useState/useState";
 
