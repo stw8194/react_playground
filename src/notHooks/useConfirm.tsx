@@ -1,7 +1,7 @@
 export const useConfirm = (
   message: string = "",
-  onConfirm: Function,
-  onCancel?: Function
+  onConfirm: () => void,
+  onCancel?: () => void
 ) => {
   // if (!onConfirm || typeof onConfirm !== "function") {
   //   return;
