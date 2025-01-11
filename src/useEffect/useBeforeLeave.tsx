@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-const useBeforeLeave = (onBefore: () => void) => {
+export const useBeforeLeave = (onBefore: () => void) => {
   // if (typeof onBefore !== "function") {
   //   return;
   // }
