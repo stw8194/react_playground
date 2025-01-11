@@ -1,9 +1,9 @@
 import { useEffect, useRef } from "react";
 
-const useClick = (onClick: () => void) => {
-  if (typeof onClick !== "function") {
-    return;
-  }
+export const useClick = (onClick: () => void) => {
+  //   if (typeof onClick !== "function") {
+  //     return;
+  //   }
   const element = useRef<HTMLHeadingElement>(null);
   useEffect(() => {
     if (element.current) {
