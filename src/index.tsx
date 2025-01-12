@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { App } from "./useScroll";
+import { App } from "./useRef/useFullscreen";
+// import { App } from "./useEffect/useScroll";
 // import { App } from "./useEffect/useNetwork";
 // import { App } from "./useRef/useFadeIn";
 // import { App } from "./useEffect/useBeforeLeave";
