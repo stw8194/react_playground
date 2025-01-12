@@ -1,6 +1,6 @@
 import { useRef } from "react";
 
-const useFullscreen = (callback: (arg: boolean) => void) => {
+export const useFullscreen = (callback: (arg: boolean) => void) => {
   const element = useRef<HTMLImageElement>(null);
   const triggerFull = () => {
     if (element.current) {
